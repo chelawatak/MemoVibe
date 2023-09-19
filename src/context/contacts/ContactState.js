@@ -4,7 +4,7 @@ import React from "react";
 
 
 const ContactState = (props) => {
-  const host = "http://localhost:5000";
+  const host = "https://memovive.onrender.com";
   const contactsInitial = [];
   const [contacts, setContacts] = useState(contactsInitial);
 

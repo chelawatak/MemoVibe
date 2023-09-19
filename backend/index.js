@@ -11,7 +11,7 @@ const app = express()
 const port = process.env.PORT||5000;
 
 app.use(cors({
-    origin:"http://localhost:3000",
+    origin:"https://aniket-chelawat-memovibe.netlify.app",
     credentials:true,
 }))
 app.use(express.json())

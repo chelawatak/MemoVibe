@@ -3,7 +3,7 @@ import { useState } from "react";
 import React from "react";
 
 const NoteState = (props) => {
-  const host = "http://localhost:5000";
+  const host = "https://memovive.onrender.com";
   const notesInitial = [];
   const [notes, setNotes] = useState(notesInitial);
 
