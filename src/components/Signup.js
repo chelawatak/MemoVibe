@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 const Signup = (props) => {
@@ -145,6 +146,10 @@ const Signup = (props) => {
         <button disabled={change} type="submit" className="btn logout-btn my-3">
           Submit
         </button>
+
+        <p>
+          Already have an account? <Link to="/login">login</Link>
+        </p>
       </form>
     </div>
   );
